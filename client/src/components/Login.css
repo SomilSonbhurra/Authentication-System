@@ -1,0 +1,85 @@
+/* === Clean Black & White Minimal Login === */
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.login-card {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 40px;
+  width: 360px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-card input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #111;
+  background: #fff;
+  transition: 0.2s ease;
+}
+
+.login-card input::placeholder {
+  color: #999;
+}
+
+.login-card input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.login-card button {
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-card button:hover {
+  background: #333;
+}
+
+.login-card p {
+  margin-top: 20px;
+  color: #333;
+  font-size: 14px;
+}
+
+.login-link {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.login-link:hover {
+  border-bottom: 1px solid #000;
+}
